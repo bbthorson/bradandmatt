@@ -66,6 +66,10 @@
         color: #fffffe;
       }
       
+      main {
+        flex-grow: 1;
+      }
+      
       footer {
         background-color: #ffa8ba;
         color: #00473e;
@@ -80,18 +84,14 @@
         <a class="navbar-brand" href="#">Brad and Matt</a>
       </div>
     </nav>
-    
-    <div class="container-sm flex-grow">
 
-      <main>
+      <main class="container-sm">
         <h1>We're coming home, NYC.</h1>
         <div id="clock-box" class="rounded bg-gradient-3 text-white shadow p-5 text-center mb-5">
           <p class="mb-0 font-weight-bold text-uppercase">T Minus</p>
           <h3><div id="clock" class="countdown pt-4"></div></h3>
         </div>
       </main>
-      
-    </div>
     
     <footer class="flex-shrink">
       <div class="inner">
